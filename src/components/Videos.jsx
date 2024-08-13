@@ -1,4 +1,4 @@
-function Videos() {
+function Videos({ videos }) {
   return <div></div>;
 }
 
