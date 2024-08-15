@@ -10,7 +10,7 @@ import {
 
 function App() {
   return (
-    <BrowserRouter basename="/youtube-clone">
+    <BrowserRouter basename="https://kurtisedwards220.github.io/youtube-clone/">
       <Box sx={{ backgroundColor: '#000' }}>
         <Navbar />
         <Routes>
