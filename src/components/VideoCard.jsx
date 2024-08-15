@@ -10,7 +10,7 @@ import {
   demoChannelUrl,
 } from '../utils/constants';
 
-function VideoCard({
+export default function VideoCard({
   video: {
     id: { videoId },
     snippet,
@@ -30,7 +30,7 @@ function VideoCard({
     >
       <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
         <CardMedia
-          image={snippet?.thumbnails?.high?.url}
+          image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
           alt={snippet?.title}
           sx={{ width: { xs: '100%', sm: '358px', md: '320px' }, height: 180 }}
         />
@@ -57,5 +57,3 @@ function VideoCard({
     </Card>
   );
 }
-
-export default VideoCard;

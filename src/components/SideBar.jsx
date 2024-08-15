@@ -2,7 +2,7 @@ import { Stack } from '@mui/material';
 
 import { categories } from '../utils/constants';
 
-function SideBar({ selectedCategory, setSelectedCategory }) {
+export default function SideBar({ selectedCategory, setSelectedCategory }) {
   return (
     <Stack
       direction="row"
@@ -42,5 +42,3 @@ function SideBar({ selectedCategory, setSelectedCategory }) {
     </Stack>
   );
 }
-
-export default SideBar;

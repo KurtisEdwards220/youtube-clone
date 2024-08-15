@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { logo } from '../utils/constants';
 import SearchBar from './SearchBar';
 
-function Navbar() {
+export default function Navbar() {
   return (
     <Stack
       direction="row"
@@ -24,5 +24,3 @@ function Navbar() {
     </Stack>
   );
 }
-
-export default Navbar;
