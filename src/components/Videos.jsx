@@ -1,7 +1,7 @@
 import { Stack, Box } from '@mui/material';
 import { VideoCard, ChannelCard } from './';
 
-function Videos({ videos, direction }) {
+export default function Videos({ videos, direction }) {
   if (!videos?.length) return 'Loading...';
 
   return (
@@ -20,5 +20,3 @@ function Videos({ videos, direction }) {
     </Stack>
   );
 }
-
-export default Videos;

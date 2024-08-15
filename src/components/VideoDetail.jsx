@@ -9,7 +9,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI';
 
 export default function VideoDetail() {
   const [videoDetail, setVideoDetail] = useState(null);
-  const [videos, setVideos] = useState([null]);
+  const [videos, setVideos] = useState(null);
   const { id } = useParams();
 
   useEffect(() => {
