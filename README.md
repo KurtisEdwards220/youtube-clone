@@ -1,6 +1,6 @@
 ![Youtube Clone](img/githubImage.png)
 
-# Youtube Clone
+# YouTube Clone
 
 In this project, I developed a fully functional YouTube clone, mimicking the core features and design of the popular video-sharing platform. The project involved creating a dynamic, responsive web application using a combination of modern web development technologies.
 
