@@ -32,7 +32,7 @@ export default function Feed() {
           variant="body2"
           sx={{ mt: 1.5, color: '#fff' }}
         >
-          Copyright 2024 Kurtis Edwards
+          Kurtis Edwards &copy; 2024
         </Typography>
       </Box>
 
